@@ -1,0 +1,36 @@
+.myTable{
+  margin: 30px auto;
+  border-collapse: collapse;
+}
+.myTable td{
+  border: 1px black solid;
+  width: 70px;
+  height: 70px;
+  font-size: 30px;
+  text-align: center;
+}
+.gamer1{
+  background-color: aqua;
+  transition: 0.2s linear 0s;
+}
+.gamer2{
+  background-color: rebeccapurple;
+  transition: 0.2s linear 0s;
+}
+.gamer3{
+  background-color: sienna;
+  transition: 0.2s linear 0s;
+}
+.showWinnerWrap{
+  margin: 0 auto;
+  height: 50px;
+  width: 300px;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.showWinner{
+  line-height: 50px;
+}
